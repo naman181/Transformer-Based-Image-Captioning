@@ -4,6 +4,17 @@
 Deep Learning techniques have revolutionized the computer vision domain in enabling machines to gain meaningful insights from the visual data. The important advancement is seen in the field through the emergence of mage captioning, which produces a natural language description equivalent to visual material [1]. Image captioning, by merging the principles of computer vision and NLP, works as an important connecting bridge between visual perception and verbal expression [2]. The evolution from captioning to full and meaningful stories in an important breakthrough in machine-generated content. The generation process, alongside contextual reasoning and narrational structuring actually needs the comprehension of visual components themselves [3]. It will be possible to provide better, more insightful, and more appropriate image analysis related to narrative construction for educational needs or application in digital media and assistive technologies broadly [4]. This report discusses the design of a comprehensive framework combining image captioning and story generation using advanced architectures in deep learning.
 
 
+# Dataset Preperation
+The Flickr8k dataset is used, which consists of images accompanied by their captions. This data needs to be ready for an image captioning task.
+
+a)	Image Preprocessing: Load image files. Decode images into tensors. Resize images to 299x299 since the InceptionV3 model requires input images of these dimensions.
+Normalize pixel values to be between 0 and 1.
+
+b)	Caption Tokenization: Convert captions to sequences of token indices using the tokenizer.
+
+c)	Dataset Creation: Collect image paths and captions together into TensorFlow datasets. Apply a custom preprocessing function (load_data) to the dataset by mapping it. Shuffle, batch and prefetch the data set for optimized loading.
+
+
 # Project Architecture
 ![image](https://github.com/user-attachments/assets/c78a65ba-0663-453b-97b9-effee780db89)
 
