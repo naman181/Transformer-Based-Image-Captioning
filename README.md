@@ -27,6 +27,7 @@ The ImageCaptioningModel is a custom TensorFlow Keras model designed for image c
 
 Example Image 1:
 a)	Predicted Caption: “A black dog is running in a field.”
+
 b)	Ground Truth Caption: “A black dog running in the grass.”
 
 ![image](https://github.com/user-attachments/assets/28ba1b11-4490-476f-96ec-b2506d40b3c6)
@@ -34,11 +35,14 @@ b)	Ground Truth Caption: “A black dog running in the grass.”
 
 Example Image 2:
 a)	Predicted Caption: “A man in a black shirt and a woman in a black shirt.”
+
 b)	Ground Truth Caption: “A man standing in front of a birdcage.”
+
 ![image](https://github.com/user-attachments/assets/3204d686-83d6-4bee-9d7b-8b1e980f9fdb)
 
 
 # TABULAR REPRESENTATION OF RESULT
+
 ![image](https://github.com/user-attachments/assets/5e15ed52-9a19-491d-9820-a86aea1c04d7)
 
 
